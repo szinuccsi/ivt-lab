@@ -37,7 +37,11 @@ public class GT4500 implements SpaceShip {
   public boolean fireTorpedo(FiringMode firingMode) {
 
     boolean firingSuccess = false;
+<<<<<<< HEAD
     firingSuccess = false;
+=======
+    // Esetek
+>>>>>>> branch-B
     switch (firingMode) {
       case SINGLE:
         if (wasPrimaryFiredLast) {
